@@ -8,16 +8,74 @@
 
     <TextView
         android:id="@+id/txtName"
+        style="@style/FrenchStyle"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="@string/name"
-        android:textAlignment="center"
-        style="@style/FrenchStyle" />
+        android:text="@string/repolhinhoInFrench"
+        android:textAlignment="center" />
 
     <ImageView
         android:id="@+id/imgAndroid"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginEnd="16dp"
         android:contentDescription="@string/imgAndroidDescription"
         app:srcCompat="@drawable/ic_launcher_foreground" />
+
+    <EditText
+        android:id="@+id/edtLoverName"
+        style="@style/FrenchStyle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="12dp"
+        android:ems="10"
+        android:hint="@string/lover_hint"
+        android:inputType="textPersonName"
+        android:textAlignment="center" />
+
+    <Button
+        android:id="@+id/btnILoveYou"
+        style="@style/CuteButton"
+        android:text="@string/i_love_you_in_romanian" />
+
+    <TextView
+        android:id="@+id/txtLoverName"
+        style="@style/FrenchStyle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="12dp"
+        android:textAlignment="center"
+        android:visibility="gone" />
+
+    <ScrollView
+        android:id="@+id/scrollBio"
+        style="@style/ScrollStyle">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/txtItalianPoem"
+                style="@style/ItalianStyle"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/repolhinhoDescriptionInItalian"
+                android:visibility="gone" />
+
+            <TextView
+                android:id="@+id/txtPortugueseSonnet"
+                style="@style/PortugueseStyle"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:lineSpacingMultiplier="1.2"
+                android:text="@string/repolhinhoDescriptionInPortuguese"
+                android:visibility="gone" />
+
+
+        </LinearLayout>
+    </ScrollView>
 </LinearLayout>

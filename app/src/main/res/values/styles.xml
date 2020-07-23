@@ -12,10 +12,50 @@
         <item name="android:fontFamily">monospace</item>
         <item name="android:paddingTop">@dimen/small_padding</item>
         <item name="android:textAllCaps">false</item>
-        <item name="android:textColor">#000000</item>
-        <item name="android:textSize">@dimen/text_size</item>
+        <item name="android:textColor">@color/pink</item>
+        <item name="android:textSize">@dimen/french_text_size</item>
+        <item name="android:typeface">monospace</item>
+        <item name="android:layout_marginStart">@dimen/layout_margin</item>
+        <item name="android:layout_marginEnd">@dimen/layout_margin</item>
+    </style>
+
+    <style name="ItalianStyle">
+        <item name="android:allowUndo">false</item>
+        <item name="android:fontFamily">monospace</item>
+        <item name="android:textAllCaps">false</item>
+        <item name="android:textColor">@color/green</item>
+        <item name="android:textSize">@dimen/italian_text_size</item>
         <item name="android:textStyle">italic</item>
         <item name="android:typeface">monospace</item>
+    </style>
+
+    <style name="PortugueseStyle">
+        <item name="android:paddingTop">@dimen/medium_padding</item>
+        <item name="android:allowUndo">false</item>
+        <item name="android:fontFamily">monospace</item>
+        <item name="android:textAllCaps">true</item>
+        <item name="android:textColor">@color/colorPrimary</item>
+        <item name="android:textSize">@dimen/portuguese_text_size</item>
+        <item name="android:typeface">monospace</item>
+    </style>
+
+    <style name="ScrollStyle">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:layout_marginStart">@dimen/layout_margin</item>
+        <item name="android:layout_marginEnd">@dimen/layout_margin</item>
+    </style>
+
+    <style name="CuteButton">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginBottom">12dp</item>
+        <item name="android:backgroundTint">@color/yellow</item>
+        <item name="android:layout_gravity">center_horizontal</item>
+        <item name="android:textAlignment">center</item>
+        <item name="android:textColor">@color/pink</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:visibility">visible</item>
     </style>
 
 </resources>

@@ -1,5 +1,11 @@
-<resources>
-    <string name="app_name">About Me</string>
-    <string name="name">Petit Chou</string>
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <string name="app_name">About You</string>
+    <string name="repolhinhoInFrench">Petit Chou</string>
     <string name="imgAndroidDescription">Android Logo image</string>
+    <string name="repolhinhoDescriptionInItalian">
+        Sei bellissima come il sole,\nChe splende nel campo dei fiori.\nAd ogni alba, fino ad ogni tramonto,\nTutto il mondo si ferma a guardati.</string>
+    <string name="repolhinhoDescriptionInPortuguese" tools:ignore="TypographyEllipsis">
+        Meu coração acelera com a sua chegada e se acalma na sua presença.\nVocê está na minha alma e em meus pensamentos,\nFecho os olhos e lembro daqueles momentos.\n\nNos momentos em que você sorria e nos que chorava.\nOs momentos em que pensava em ti,\nQuando dormia e quando acordava.\n\nPensei estar livre dessa paixão,\nMas esse sentimento está em meu ser\nComo um feitiço ou uma maldição.\n\nEu quero te esquecer, te tirar da minha mente,\nQuero não me apaixonar de novo por você,\nMas acima de tudo ... eu quero beijar-te.\n</string>
+    <string name="lover_hint">Put him/her name</string>
+    <string name="i_love_you_in_romanian">Te Iubesc</string>
 </resources>
